@@ -1,9 +1,9 @@
-﻿using HenryMod.SkillStates;
-using HenryMod.SkillStates.BaseStates;
+﻿using BatmanMod.SkillStates;
+using BatmanMod.SkillStates.BaseStates;
 using System.Collections.Generic;
 using System;
 
-namespace HenryMod.Modules
+namespace BatmanMod.Modules
 {
     public static class States
     {

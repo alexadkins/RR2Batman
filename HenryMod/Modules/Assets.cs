@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using RoR2.UI;
 using System;
 
-namespace HenryMod.Modules
+namespace BatmanMod.Modules
 {
     internal static class Assets
     {
@@ -27,9 +27,9 @@ namespace HenryMod.Modules
         internal static AssetBundle mainAssetBundle;
 
         // CHANGE THIS
-        private const string assetbundleName = "myassetbundle";
+        private const string assetbundleName = "batmanassets";
         //change this to your project's name if/when you've renamed it
-        private const string csProjName = "HenryMod";
+        private const string csProjName = "BatmanMod";
         
         internal static void Initialize()
         {
@@ -65,7 +65,7 @@ namespace HenryMod.Modules
 
         internal static void LoadSoundbank()
         {
-            using (Stream manifestResourceStream2 = Assembly.GetExecutingAssembly().GetManifestResourceStream($"{csProjName}.HenryBank.bnk"))
+            using (Stream manifestResourceStream2 = Assembly.GetExecutingAssembly().GetManifestResourceStream($"{csProjName}.BatmanBank.bnk"))
             {
                 byte[] array = new byte[manifestResourceStream2.Length];
                 manifestResourceStream2.Read(array, 0, array.Length);
